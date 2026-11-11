@@ -28,7 +28,7 @@ public class PlaywrightManager_2
             	
                 //Page page = browser.newPage();
                 page.navigate("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
-                System.out.println("Title : " + page.title());
+                System.out.println("Title: " + page.title());
                 PlaywrightAssertions.assertThat(page).hasTitle(Pattern.compile("OrangeHRM"));
                 System.out.println("Page title assertion passed!");
             }
