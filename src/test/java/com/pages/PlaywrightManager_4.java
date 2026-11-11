@@ -20,7 +20,7 @@ public class PlaywrightManager_4
 			page.waitForTimeout(3000);
 			System.out.println("Title :" + page.title());
 			PlaywrightAssertions.assertThat(page).hasTitle(Pattern.compile("Fast and reliable end-to-end testing for modern web apps | Playwright"));
-			page.screenshot(new Page.ScreenshotOptions().setPath(Paths.get("example.png")));
+			page.screenshot(new Page.ScreenshotOptions().setPath(Paths.get("PagePrint.png")));
 		}
 		catch (Exception e) 
         {
