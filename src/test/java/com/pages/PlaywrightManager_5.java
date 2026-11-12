@@ -21,7 +21,7 @@ public class PlaywrightManager_5
 			System.out.println("Title: " + page.title());
 			PlaywrightAssertions.assertThat(page).hasTitle(Pattern.compile("Fast and reliable end-to-end testing for modern web apps | Playwright"));
 			
-			page.screenshot(  new Page.ScreenshotOptions().setPath(Paths.get("PagePrint.png"))  );            // relative path for the file 'PagePrint.png'
+			page.screenshot(  new Page.ScreenshotOptions().setPath(Paths.get("PagePrint.png"))  );                 // relative path for the file 'PagePrint.png'
 
 			page.screenshot(  new Page.ScreenshotOptions().setPath(Paths.get("D:/screenshots/PagePrint.png"))  );  // absolute path for the file 'PagePrint.png'
 		}
