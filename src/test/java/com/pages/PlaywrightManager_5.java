@@ -20,8 +20,7 @@ public class PlaywrightManager_5
 			Browser browser = playwright.chromium().launch(
 				new BrowserType.LaunchOptions()
 					.setHeadless(false)
-					.setArgs(Arrays.asList("--start-maximized"))
-			);
+					.setArgs(Arrays.asList("--start-maximized")));
 			
 			// Create a BrowserContext with viewport set to 'null' 
 			// This prevents Playwright from forcing a default viewport size (e.g., 1280x720)
