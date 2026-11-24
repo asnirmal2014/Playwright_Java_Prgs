@@ -52,6 +52,7 @@ public class WeatherReport
         catch (InterruptedException e) 
         {
             Thread.currentThread().interrupt();
+            
             System.err.println("Request was interrupted.");
         } 
         catch (Exception e) 
