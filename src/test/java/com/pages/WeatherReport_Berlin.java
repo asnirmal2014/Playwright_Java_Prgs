@@ -7,7 +7,7 @@ import java.net.http.HttpResponse;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-public class WeatherReport 
+public class WeatherReport_Berlin 
 {
     public static void main(String[] args) 
     {
