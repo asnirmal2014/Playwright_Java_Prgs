@@ -53,7 +53,6 @@ public class WeatherReport_Berlin
         catch (InterruptedException e) 
         {
             Thread.currentThread().interrupt();
-
             System.err.println("Request was interrupted.");
         } 
         catch (Exception e) 
@@ -62,3 +61,6 @@ public class WeatherReport_Berlin
         }
     }
 }
+
+
+
