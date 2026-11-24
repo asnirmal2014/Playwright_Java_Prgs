@@ -82,7 +82,7 @@ cobertura.ser
 
 
 # ============================================================
-#  5. SELENIUM RUNTIME ARTIFACTS
+#  5. SELENIUM/PLAYWRIGHT RUNTIME ARTIFACTS
 #  (Remove "screenshots/" if you intentionally commit evidence images)
 # ============================================================
 
@@ -172,7 +172,7 @@ Thumbs.db
 ehthumbs.db
 desktop.ini
 Desktop.ini
- $RECYCLE.BIN/
+$RECYCLE.BIN/
 
 # Linux
 .fuse_hidden*

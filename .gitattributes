@@ -1,0 +1,2 @@
+# Force GitHub to count Java files
+*.java linguist-detectable=true
