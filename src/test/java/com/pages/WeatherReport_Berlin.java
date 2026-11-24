@@ -29,7 +29,6 @@ public class WeatherReport_Berlin
             if (response.statusCode() != 200) 
             {
                 System.err.println("API request failed. HTTP status: " + response.statusCode());
-                
                 return;
             }
 
@@ -53,7 +52,6 @@ public class WeatherReport_Berlin
         catch (InterruptedException e) 
         {
             Thread.currentThread().interrupt();
-            
             System.err.println("Request was interrupted.");
         } 
         catch (Exception e) 
